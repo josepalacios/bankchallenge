@@ -134,6 +134,31 @@ Returns all transactions from a specific account on a specific date.
 
 ---
 
+### 🐳 Viewing Logs
+
+To monitor the runtime behavior of each service (e.g., transactions being processed, validations, errors), you can inspect their logs using Docker:
+
+```bash
+# View logs for the TransactionService
+docker logs -f retotecnico-transactionservice-1
+
+# View logs for the AntiFraudService
+docker logs -f retotecnico-antifraudservice-1
+
+# View logs for Kafka
+docker logs -f kafka
+
+# View logs for PostgreSQL (optional, mostly for debugging DB issues)
+docker logs -f postgres
+```
+
+> ℹ️ Replace container names if they are different in your setup (`docker ps` to list them).
+
+Logs are especially useful to trace events such as:
+- Messages published and consumed from Kafka
+- Validation results from the anti-fraud logic
+- Database insertions and updates
+
 ## 👤 Author
 
 **José Palacios**  
