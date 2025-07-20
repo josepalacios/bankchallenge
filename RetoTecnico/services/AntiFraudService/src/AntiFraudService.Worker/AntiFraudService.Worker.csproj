@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="Confluent.Kafka" Version="2.10.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AntiFraudService.Application\AntiFraudService.Application.csproj" />
+		<ProjectReference Include="..\AntiFraudService.Infrastructure\AntiFraudService.Infrastructure.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+</Project>

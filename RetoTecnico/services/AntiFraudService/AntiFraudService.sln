@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78F92D77-6D7F-480C-A40A-12158A771ABD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntiFraudService.Worker", "src\AntiFraudService.Worker\AntiFraudService.Worker.csproj", "{D51AC42C-F9E7-4F8C-BD9E-74A0143C92F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntiFraudService.Application", "src\AntiFraudService.Application\AntiFraudService.Application.csproj", "{3BE47B50-62A9-4338-81C0-5584A77407BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntiFraudService.Domain", "src\AntiFraudService.Domain\AntiFraudService.Domain.csproj", "{4DC3AEE3-F596-47C4-A00B-05BD5F2AD012}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntiFraudService.Infrastructure", "src\AntiFraudService.Infrastructure\AntiFraudService.Infrastructure.csproj", "{106FE44D-5F1D-4DA8-98B1-CF4DDFF674F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D51AC42C-F9E7-4F8C-BD9E-74A0143C92F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51AC42C-F9E7-4F8C-BD9E-74A0143C92F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51AC42C-F9E7-4F8C-BD9E-74A0143C92F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51AC42C-F9E7-4F8C-BD9E-74A0143C92F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE47B50-62A9-4338-81C0-5584A77407BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE47B50-62A9-4338-81C0-5584A77407BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE47B50-62A9-4338-81C0-5584A77407BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE47B50-62A9-4338-81C0-5584A77407BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC3AEE3-F596-47C4-A00B-05BD5F2AD012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC3AEE3-F596-47C4-A00B-05BD5F2AD012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC3AEE3-F596-47C4-A00B-05BD5F2AD012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC3AEE3-F596-47C4-A00B-05BD5F2AD012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106FE44D-5F1D-4DA8-98B1-CF4DDFF674F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106FE44D-5F1D-4DA8-98B1-CF4DDFF674F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106FE44D-5F1D-4DA8-98B1-CF4DDFF674F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106FE44D-5F1D-4DA8-98B1-CF4DDFF674F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D51AC42C-F9E7-4F8C-BD9E-74A0143C92F7} = {78F92D77-6D7F-480C-A40A-12158A771ABD}
+		{3BE47B50-62A9-4338-81C0-5584A77407BD} = {78F92D77-6D7F-480C-A40A-12158A771ABD}
+		{4DC3AEE3-F596-47C4-A00B-05BD5F2AD012} = {78F92D77-6D7F-480C-A40A-12158A771ABD}
+		{106FE44D-5F1D-4DA8-98B1-CF4DDFF674F8} = {78F92D77-6D7F-480C-A40A-12158A771ABD}
+	EndGlobalSection
+EndGlobal
