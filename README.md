@@ -45,7 +45,7 @@ Responsible for:
 Kafka acts as the backbone for asynchronous communication:
 
 - TransactionService produces messages to the `transaction-submitted` topic.
-- AntiFraudService consumes those messages, processes them, and produces validation results to the `transaction-status-updated` topic.
+- AntiFraudService consumes those messages, processes them, and produces validation results.
 
 ---
 
@@ -59,7 +59,7 @@ Kafka acts as the backbone for asynchronous communication:
 
 ```bash
 git clone https://github.com/josepalacios/bankchallenge.git
-cd retotecnico-transacciones
+cd RetoTecnico
 ```
 
 ### Step 2: Start All Services
